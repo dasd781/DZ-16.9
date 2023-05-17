@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChatBox.cpp" />
     <ClCompile Include="DZ-16.9.cpp" />
+    <ClCompile Include="SHA1.cpp" />
+    <ClCompile Include="Shell.cpp" />
+    <ClCompile Include="UserStorage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChatBox.h" />
+    <ClInclude Include="LinkStorage.h" />
+    <ClInclude Include="SHA1.h" />
+    <ClInclude Include="Shell.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserStorage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
